@@ -1,0 +1,5 @@
+Demonfall.Players.PlayerAdded:Connect(god mode(Player)
+    if Player:WaitForDataReady() then
+        print(Player:LoadString("TheirName")) 
+    end
+end)
